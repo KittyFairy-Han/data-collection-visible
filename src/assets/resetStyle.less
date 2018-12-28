@@ -1,0 +1,88 @@
+@import "./base";
+
+.el-menu-item:hover {
+  background-color: @themColor !important;
+  color: white !important;
+  i {
+    color: white !important;
+  }
+}
+
+.el-submenu:hover .el-submenu__title {
+  background-color: @themColor !important;
+  color: white !important;
+  i {
+    color: white !important;
+  }
+}
+
+.el-table--enable-row-hover .el-table__body tr:hover > td {
+  background-color: @themColorLight
+}
+
+.el-table {
+  .score.prize-one:last-child {
+    background-color: #ffd700;
+    color: @themBackground;
+  }
+  .score.prize-two:last-child {
+    background-color: #c0c0c0;
+    color: @themBackground;
+  }
+  .score:last-child {
+    background-color: #B87333;
+    color: @themBackground;
+  }
+  .cell{
+  text-align: center;
+  }
+  .left .cell{
+    text-align: left;
+  }
+}
+
+.el-radio-group.money-type{
+  width: 95%;
+  margin-bottom: 20px;
+  .el-radio-button{
+    width: 50%;
+    span{
+      width: 100%;
+      height: 50px;
+      color: white;
+      font-size: 20px;
+    }
+  }
+  .pay{
+    span{
+      background-color: #d8b178;
+    }
+  }
+  .free{
+    span{
+      background-color: #6facc7;
+    }
+  }
+  .is-active{
+    span{
+      background-color: @themColor;
+      color: white;
+    }
+  }
+}
+
+.el-radio-group.cate{
+  .el-radio-button{
+    span{
+      background-color: #6d87a9;
+      color: white;
+    }
+  }
+  .is-active{
+    span{
+      background-color: @themColor;
+      color: white;
+    }
+  }
+}
+

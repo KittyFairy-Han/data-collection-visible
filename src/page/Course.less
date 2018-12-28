@@ -1,0 +1,29 @@
+
+@import "../assets/base";
+#course {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: #f7f9fa;
+  .part {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .chart-item {
+      min-width: 1000px;
+      width: 95%;
+      height: 300px;
+      margin-bottom: 20px;
+      padding: 20px;
+      float: left;
+      border: 4px solid white;
+      background-color: white;
+    }
+    .chart-item:hover{
+      border: 4px solid @themColor;
+    }
+  }
+
+}
